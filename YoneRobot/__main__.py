@@ -349,12 +349,8 @@ def yone_about_callback(update, context):
     query = update.callback_query
     if query.data == "yone_":
         query.message.edit_text(
-            text=""" b>➥ Name</b> : <code>lιzzaᶜᶻ</code>
-    
-/n<b>➥ ᴄʀᴇᴀᴛᴏʀ</b> : <b><i><a href="https://t.me/wasimfaris07">αͷϴͷϒϻϴῠs ᴹᴳ</a></i></b>
-/n<b>➥ ʟᴀɴɢᴜᴀɢᴇ</b> : <code>Python3</code>
-/n<b>➥ ʟɪʙʀᴀʀʏ</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
-/n<b>➥ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ</b> : 🔐 .""",
+            text=""" ➥ 𝚗𝚊𝚖𝚎 : 𝚝𝚘𝚔𝚢𝚘 /𝚗➥ 𝚌𝚛𝚎𝚊𝚝𝚘𝚛 : [ᴘᴇᴀᴋʏ вℓιи∂єя 🇮🇳 / 🇱🇷](http//t.me/wasimfaris07) /n 𝚕𝚊𝚗𝚐𝚞𝚊𝚐𝚎 : 𝚙𝚢𝚝𝚑𝚘𝚗 3 /𝚗 𝚕𝚒𝚋𝚛𝚊𝚛𝚢 : Pyrogram Asyncio 1.13.0 /𝚗 𝚜𝚘𝚞𝚛𝚌𝚎 𝚌𝚘𝚍𝚎 : 𝚕𝚘𝚌𝚔 
+  .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
