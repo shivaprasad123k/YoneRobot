@@ -349,16 +349,12 @@ def yone_about_callback(update, context):
     query = update.callback_query
     if query.data == "yone_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *yone*, a powerful group management bot built to help you manage your group easily.
-                 \n❍ I can restrict users.
-                 \n❍ I can greet users with customizable welcome messages and even set a group's rules.
-                 \n❍ I have an advanced anti-flood system.
-                 \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
-                 \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
-                 \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_yone's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/noob-kittu/YoneRobot).
-                 \n\nIf you have any question about yone, let us know at .""",
+            text=""" b>➥ Name</b> : <code>lιzzaᶜᶻ</code>
+    
+/n<b>➥ ᴄʀᴇᴀᴛᴏʀ</b> : <b><i><a href="https://t.me/wasimfaris07">αͷϴͷϒϻϴῠs ᴹᴳ</a></i></b>
+/n<b>➥ ʟᴀɴɢᴜᴀɢᴇ</b> : <code>Python3</code>
+/n<b>➥ ʟɪʙʀᴀʀʏ</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
+/n<b>➥ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ</b> : 🔐 .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
