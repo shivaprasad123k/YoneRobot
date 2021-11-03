@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʟʟᴏ [🤗](https://telegra.ph/file/879245b592ad2a55f8a83.jpg), ɪᴍ ʏᴏɴᴇ ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help   
+ʜᴇʟʟᴏ [🤗](https://telegra.ph/file/879245b592ad2a55f8a83.jpg), ADD ME TO YOUR GROUP As admin Thats all..
+`ɪ'ᴍ A PUBLIC BOT! ʜɪᴛ` /help   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="🕵️‍♂️ DEVELOPER 🕵️‍♂️", url="https://t.me/OGGY123kph"),
+            text="➕️ ADD ME TO YOUR GROUP ➕️", url="http://t.me/Filter_bot12bot?startgroup=botstart"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ 😎", callback_data="yone_"),
